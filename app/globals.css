@@ -2391,9 +2391,71 @@ a:focus-visible {
     .hero {
         padding: 100px 24px 60px;
     }
+
+    .hero-content {
+        padding-right: 0;
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .hero-title {
+        font-size: clamp(2rem, 8vw, 2.8rem);
+        margin-bottom: 20px;
+    }
+
+    .hero-subtitle {
+        font-size: 1rem;
+        margin-bottom: 28px;
+    }
     
     .hero-features {
         gap: 10px;
+        align-items: center;
+        margin-bottom: 28px;
+    }
+
+    .hero-feature-item {
+        font-size: 0.95rem;
+        justify-content: center;
+    }
+
+    .hero-actions {
+        justify-content: center;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .btn-hero-primary,
+    .btn-hero-secondary {
+        width: 100%;
+        max-width: 320px;
+        font-size: 1rem;
+        padding: 12px 24px;
+    }
+
+    .illustration-stats-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+    }
+
+    .mini-stat {
+        padding: 20px 16px;
+        border-radius: 16px;
+    }
+
+    .mini-stat-icon {
+        width: 32px;
+        height: 32px;
+        font-size: 1rem;
+        margin-bottom: 10px;
+    }
+
+    .mini-stat-value {
+        font-size: 1.5rem;
+    }
+
+    .mini-stat-label {
+        font-size: 0.8rem;
     }
     
     .progress-grid {
@@ -2486,6 +2548,34 @@ a:focus-visible {
 @media (max-width: 480px) {
     .topics-grid {
         grid-template-columns: 1fr;
+    }
+
+    .hero-title {
+        font-size: 1.8rem;
+    }
+
+    .hero-subtitle {
+        font-size: 0.95rem;
+    }
+
+    .illustration-stats-grid {
+        gap: 10px;
+    }
+
+    .mini-stat {
+        padding: 16px 12px;
+    }
+
+    .mini-stat-value {
+        font-size: 1.3rem;
+    }
+
+    .section-title {
+        font-size: 2rem;
+    }
+
+    .section-subtitle {
+        font-size: 1rem;
     }
 }
 
