@@ -1,0 +1,122 @@
+[
+  {
+    "word": "universe",
+    "phonetic": "/jˈunʌvˌɝs/",
+    "meaning": "vũ trụ",
+    "example": "The universe is expanding according to modern physics."
+  },
+  {
+    "word": "galaxy",
+    "phonetic": "/ɡˈælʌksi/",
+    "meaning": "thiên hà",
+    "example": "Our galaxy contains billions of stars."
+  },
+  {
+    "word": "solar system",
+    "phonetic": "/sˈoʊlɝ sˈɪstʌm/",
+    "meaning": "hệ Mặt Trời",
+    "example": "The solar system includes planets and asteroids."
+  },
+  {
+    "word": "planet",
+    "phonetic": "/plˈænʌt/",
+    "meaning": "hành tinh",
+    "example": "Scientists study planets for signs of life."
+  },
+  {
+    "word": "constellation",
+    "phonetic": "/kˌɑnstʌlˈeɪʃʌn/",
+    "meaning": "chòm sao",
+    "example": "Constellations helped navigation in the past."
+  },
+  {
+    "word": "orbit",
+    "phonetic": "/ˈɔrbʌt/",
+    "meaning": "quỹ đạo",
+    "example": "Satellites remain in orbit around Earth."
+  },
+  {
+    "word": "gravity",
+    "phonetic": "/ɡrˈævʌti/",
+    "meaning": "trọng lực",
+    "example": "Gravity keeps planets in motion."
+  },
+  {
+    "word": "telescope",
+    "phonetic": "/tˈelʌskˌoʊp/",
+    "meaning": "kính thiên văn",
+    "example": "Telescopes reveal distant galaxies."
+  },
+  {
+    "word": "astronomer",
+    "phonetic": "/ʌstrˈɑnʌmɝ/",
+    "meaning": "nhà thiên văn",
+    "example": "Astronomers analyze light from stars."
+  },
+  {
+    "word": "black hole",
+    "phonetic": "/blˈæk hˈoʊl/",
+    "meaning": "hố đen",
+    "example": "A black hole has extremely strong gravity."
+  },
+  {
+    "word": "nebula",
+    "phonetic": "/nˈebjʌlʌ/",
+    "meaning": "tinh vân",
+    "example": "Nebulae are clouds of gas and dust."
+  },
+  {
+    "word": "comet",
+    "phonetic": "/kˈɑmʌt/",
+    "meaning": "sao chổi",
+    "example": "Comets brighten when near the Sun."
+  },
+  {
+    "word": "asteroid",
+    "phonetic": "/ˈæstɝˌɔɪd/",
+    "meaning": "tiểu hành tinh",
+    "example": "Asteroids vary in size and composition."
+  },
+  {
+    "word": "meteor",
+    "phonetic": "/mˈitiɝ/",
+    "meaning": "thiên thạch",
+    "example": "A meteor burns in the atmosphere."
+  },
+  {
+    "word": "light-year",
+    "phonetic": "/lˈaɪt jˈɪr/",
+    "meaning": "năm ánh sáng",
+    "example": "A light-year measures distance."
+  },
+  {
+    "word": "space exploration",
+    "phonetic": "/spˈeɪs ˌeksplɝˈeɪʃʌn/",
+    "meaning": "thám hiểm không gian",
+    "example": "Space exploration drives innovation."
+  },
+  {
+    "word": "satellite",
+    "phonetic": "/sˈætʌlˌaɪt/",
+    "meaning": "vệ tinh",
+    "example": "Satellites provide GPS services."
+  },
+  {
+    "word": "cosmic radiation",
+    "phonetic": "/kˈɑzmɪk rˌeɪdiˈeɪʃʌn/",
+    "meaning": "bức xạ vũ trụ",
+    "example": "Cosmic radiation can harm astronauts."
+  },
+  {
+    "word": "dark matter",
+    "phonetic": "/dˈɑrk mˈætɝ/",
+    "meaning": "vật chất tối",
+    "example": "Dark matter is inferred from gravity."
+  },
+  {
+    "word": "eclipse",
+    "phonetic": "/ɪklˈɪps/",
+    "meaning": "nhật/nguyệt thực",
+    "example": "An eclipse occurs when light is blocked."
+  }
+]

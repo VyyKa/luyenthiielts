@@ -1,0 +1,122 @@
+[
+  {
+    "word": "income",
+    "phonetic": "/ˈɪnkˌʌm/",
+    "meaning": "thu nhập",
+    "example": "Income levels influence spending habits."
+  },
+  {
+    "word": "expense",
+    "phonetic": "/ɪkspˈens/",
+    "meaning": "chi tiêu",
+    "example": "Tracking expenses helps people manage budgets."
+  },
+  {
+    "word": "budget",
+    "phonetic": "/bˈʌdʒɪt/",
+    "meaning": "ngân sách",
+    "example": "A budget prevents unnecessary spending."
+  },
+  {
+    "word": "savings",
+    "phonetic": "/sˈeɪvɪŋz/",
+    "meaning": "tiết kiệm",
+    "example": "Savings provide security during emergencies."
+  },
+  {
+    "word": "investment",
+    "phonetic": "/ˌɪnvˈestmʌnt/",
+    "meaning": "đầu tư",
+    "example": "Investment can increase wealth over the long term."
+  },
+  {
+    "word": "inflation",
+    "phonetic": "/ˌɪnflˈeɪʃʌn/",
+    "meaning": "lạm phát",
+    "example": "Inflation reduces purchasing power over time."
+  },
+  {
+    "word": "interest rate",
+    "phonetic": "/ˈɪntrʌst rˈeɪt/",
+    "meaning": "lãi suất",
+    "example": "Interest rates affect loans and mortgages."
+  },
+  {
+    "word": "loan",
+    "phonetic": "/lˈoʊn/",
+    "meaning": "khoản vay",
+    "example": "Many students take out loans to pay tuition fees."
+  },
+  {
+    "word": "debt",
+    "phonetic": "/dˈet/",
+    "meaning": "nợ",
+    "example": "Excessive debt can cause financial stress."
+  },
+  {
+    "word": "taxation",
+    "phonetic": "/tæksˈeɪʃʌn/",
+    "meaning": "thuế",
+    "example": "Taxation funds public services."
+  },
+  {
+    "word": "economic growth",
+    "phonetic": "/ˌekʌnˈɑmɪk ɡrˈoʊθ/",
+    "meaning": "tăng trưởng kinh tế",
+    "example": "Economic growth can raise living standards."
+  },
+  {
+    "word": "recession",
+    "phonetic": "/rɪsˈeʃʌn/",
+    "meaning": "suy thoái",
+    "example": "A recession often leads to unemployment."
+  },
+  {
+    "word": "wages",
+    "phonetic": "/wˈeɪdʒʌz/",
+    "meaning": "tiền công",
+    "example": "Low wages can worsen inequality."
+  },
+  {
+    "word": "wealth",
+    "phonetic": "/wˈelθ/",
+    "meaning": "sự giàu có",
+    "example": "Wealth is distributed unevenly in many societies."
+  },
+  {
+    "word": "poverty",
+    "phonetic": "/pˈɑvɝti/",
+    "meaning": "nghèo đói",
+    "example": "Poverty limits access to education."
+  },
+  {
+    "word": "consumer spending",
+    "phonetic": "/kʌnsˈumɝ spˈendɪŋ/",
+    "meaning": "chi tiêu tiêu dùng",
+    "example": "Consumer spending drives demand."
+  },
+  {
+    "word": "financial literacy",
+    "phonetic": "/fʌnˈænʃʌl lˈɪtɝʌsi/",
+    "meaning": "kiến thức tài chính",
+    "example": "Financial literacy helps avoid scams."
+  },
+  {
+    "word": "banking",
+    "phonetic": "/bˈæŋkɪŋ/",
+    "meaning": "ngân hàng",
+    "example": "Online banking makes transactions faster."
+  },
+  {
+    "word": "cost of living",
+    "phonetic": "/kˈɑst ˈʌv lˈɪvɪŋ/",
+    "meaning": "chi phí sinh hoạt",
+    "example": "The cost of living is higher in big cities."
+  },
+  {
+    "word": "retirement",
+    "phonetic": "/ritˈaɪɝmʌnt/",
+    "meaning": "nghỉ hưu",
+    "example": "Planning for retirement should start early."
+  }
+]

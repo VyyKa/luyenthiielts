@@ -1,0 +1,122 @@
+[
+  {
+    "word": "innovation",
+    "phonetic": "/ˌɪnʌvˈeɪʃʌn/",
+    "meaning": "đổi mới",
+    "example": "Innovation drives productivity in competitive industries."
+  },
+  {
+    "word": "automation",
+    "phonetic": "/ɔtʌmˈeɪʃʌn/",
+    "meaning": "tự động hóa",
+    "example": "Automation can reduce costs but may replace some jobs."
+  },
+  {
+    "word": "artificial intelligence",
+    "phonetic": "/ˌɑrtʌfˈɪʃʌl ˌɪntˈelʌdʒʌns/",
+    "meaning": "trí tuệ nhân tạo",
+    "example": "Artificial intelligence is transforming customer service."
+  },
+  {
+    "word": "machine learning",
+    "phonetic": "/mʌʃˈin lˈɝnɪŋ/",
+    "meaning": "học máy",
+    "example": "Machine learning helps systems improve through data."
+  },
+  {
+    "word": "algorithm",
+    "phonetic": "/ˈælɡɝˌɪðʌm/",
+    "meaning": "thuật toán",
+    "example": "Algorithms shape what users see on social media feeds."
+  },
+  {
+    "word": "data privacy",
+    "phonetic": "/dˈeɪtʌ prˈaɪvʌsi/",
+    "meaning": "quyền riêng tư dữ liệu",
+    "example": "Data privacy concerns have grown with online tracking."
+  },
+  {
+    "word": "cybersecurity",
+    "phonetic": "",
+    "meaning": "an ninh mạng",
+    "example": "Cybersecurity is essential for protecting sensitive information."
+  },
+  {
+    "word": "encryption",
+    "phonetic": "/enkrˈɪpʃʌn/",
+    "meaning": "mã hóa",
+    "example": "Encryption secures messages from unauthorized access."
+  },
+  {
+    "word": "cloud computing",
+    "phonetic": "/klˈaʊd kʌmpjˈutɪŋ/",
+    "meaning": "điện toán đám mây",
+    "example": "Cloud computing allows remote access to files and services."
+  },
+  {
+    "word": "digital transformation",
+    "phonetic": "/dˈɪdʒʌtʌl trˌænsfɝmˈeɪʃʌn/",
+    "meaning": "chuyển đổi số",
+    "example": "Digital transformation can streamline business operations."
+  },
+  {
+    "word": "virtual reality",
+    "phonetic": "/vˈɝtʃuʌl rˌiˈælʌtˌi/",
+    "meaning": "thực tế ảo",
+    "example": "Virtual reality is used in training and education."
+  },
+  {
+    "word": "internet of things",
+    "phonetic": "/ˈɪntɝnˌet ˈʌv θˈɪŋz/",
+    "meaning": "Internet vạn vật",
+    "example": "The internet of things connects everyday devices to networks."
+  },
+  {
+    "word": "smart device",
+    "phonetic": "/smˈɑrt dɪvˈaɪs/",
+    "meaning": "thiết bị thông minh",
+    "example": "Smart devices can monitor health and track activity."
+  },
+  {
+    "word": "software",
+    "phonetic": "/sˈɔftwˌer/",
+    "meaning": "phần mềm",
+    "example": "Software updates often fix bugs and improve performance."
+  },
+  {
+    "word": "hardware",
+    "phonetic": "/hˈɑrdwˌer/",
+    "meaning": "phần cứng",
+    "example": "Hardware limitations can slow down complex applications."
+  },
+  {
+    "word": "user-friendly",
+    "phonetic": "/jˈuzɝ frˈendli/",
+    "meaning": "dễ sử dụng",
+    "example": "A user-friendly interface improves customer satisfaction."
+  },
+  {
+    "word": "digital divide",
+    "phonetic": "/dˈɪdʒʌtʌl dɪvˈaɪd/",
+    "meaning": "khoảng cách số",
+    "example": "The digital divide limits opportunities for disadvantaged students."
+  },
+  {
+    "word": "remote work",
+    "phonetic": "/rɪmˈoʊt wˈɝk/",
+    "meaning": "làm việc từ xa",
+    "example": "Remote work became widespread after major disruptions."
+  },
+  {
+    "word": "productivity",
+    "phonetic": "/prˌoʊdʌktˈɪvʌti/",
+    "meaning": "năng suất",
+    "example": "New tools can boost productivity if used wisely."
+  },
+  {
+    "word": "upgrade",
+    "phonetic": "/ʌpɡrˈeɪd/",
+    "meaning": "nâng cấp",
+    "example": "Many users upgrade their phones every few years."
+  }
+]

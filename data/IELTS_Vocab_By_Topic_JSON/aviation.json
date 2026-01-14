@@ -1,0 +1,122 @@
+[
+  {
+    "word": "aircraft",
+    "phonetic": "/ˈerkrˌæft/",
+    "meaning": "máy bay",
+    "example": "Modern aircraft are designed to be fuel-efficient."
+  },
+  {
+    "word": "pilot",
+    "phonetic": "/pˈaɪlʌt/",
+    "meaning": "phi công",
+    "example": "A pilot must stay calm under pressure."
+  },
+  {
+    "word": "runway",
+    "phonetic": "/rˈʌnwˌeɪ/",
+    "meaning": "đường băng",
+    "example": "The runway was closed due to fog."
+  },
+  {
+    "word": "takeoff",
+    "phonetic": "/tˈeɪkˌɔf/",
+    "meaning": "cất cánh",
+    "example": "Takeoff was delayed by strong winds."
+  },
+  {
+    "word": "landing",
+    "phonetic": "/lˈændɪŋ/",
+    "meaning": "hạ cánh",
+    "example": "Landing safely requires skill and precision."
+  },
+  {
+    "word": "air traffic control",
+    "phonetic": "/ˈer trˈæfɪk kʌntrˈoʊl/",
+    "meaning": "kiểm soát không lưu",
+    "example": "Air traffic control prevents collisions."
+  },
+  {
+    "word": "cockpit",
+    "phonetic": "/kˈɑkpˌɪt/",
+    "meaning": "buồng lái",
+    "example": "The cockpit contains instruments and controls."
+  },
+  {
+    "word": "turbulence",
+    "phonetic": "/tˈɝbjʌlʌns/",
+    "meaning": "nhiễu động",
+    "example": "Turbulence is common during storms."
+  },
+  {
+    "word": "flight delay",
+    "phonetic": "/flˈaɪt dɪlˈeɪ/",
+    "meaning": "chuyến bay trễ",
+    "example": "Flight delays can disrupt schedules."
+  },
+  {
+    "word": "security check",
+    "phonetic": "/sɪkjˈʊrʌti tʃˈek/",
+    "meaning": "kiểm tra an ninh",
+    "example": "Security checks aim to keep flights safe."
+  },
+  {
+    "word": "luggage allowance",
+    "phonetic": "/lˈʌɡʌdʒ ʌlˈaʊʌns/",
+    "meaning": "hạn mức hành lý",
+    "example": "Luggage allowance varies between airlines."
+  },
+  {
+    "word": "fuel efficiency",
+    "phonetic": "/fjˈuʌl ɪfˈɪʃʌnsi/",
+    "meaning": "hiệu quả nhiên liệu",
+    "example": "Fuel efficiency reduces costs and emissions."
+  },
+  {
+    "word": "aerodynamics",
+    "phonetic": "/ˌeroʊdaɪnˈæmɪks/",
+    "meaning": "khí động học",
+    "example": "Aerodynamics influences speed and stability."
+  },
+  {
+    "word": "navigation system",
+    "phonetic": "/nˈævʌɡˈeɪʃʌn sˈɪstʌm/",
+    "meaning": "hệ thống định vị",
+    "example": "Navigation systems help pilots follow routes."
+  },
+  {
+    "word": "maintenance",
+    "phonetic": "/mˈeɪntʌnʌns/",
+    "meaning": "bảo dưỡng",
+    "example": "Maintenance prevents technical failures."
+  },
+  {
+    "word": "airline",
+    "phonetic": "/ˈerlˌaɪn/",
+    "meaning": "hãng hàng không",
+    "example": "Airlines compete on service and punctuality."
+  },
+  {
+    "word": "airport",
+    "phonetic": "/ˈerpˌɔrt/",
+    "meaning": "sân bay",
+    "example": "Airports need strong infrastructure."
+  },
+  {
+    "word": "airspace",
+    "phonetic": "/ˈerspˌeɪs/",
+    "meaning": "không phận",
+    "example": "Airspace regulations ensure safe operations."
+  },
+  {
+    "word": "flight attendant",
+    "phonetic": "/flˈaɪt ʌtˈendʌnt/",
+    "meaning": "tiếp viên",
+    "example": "Flight attendants ensure passenger safety."
+  },
+  {
+    "word": "check-in",
+    "phonetic": "/tʃˈek ɪn/",
+    "meaning": "làm thủ tục",
+    "example": "Online check-in saves time at airports."
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "word": "public transport",
+    "phonetic": "/pˈʌblɪk trænspˈɔrt/",
+    "meaning": "giao thông công cộng",
+    "example": "Public transport reduces congestion."
+  },
+  {
+    "word": "metro system",
+    "phonetic": "/mˈetrˌoʊ sˈɪstʌm/",
+    "meaning": "tàu điện",
+    "example": "Metro systems move people efficiently."
+  },
+  {
+    "word": "railway",
+    "phonetic": "/rˈeɪlwˌeɪ/",
+    "meaning": "đường sắt",
+    "example": "Railways are cleaner than cars."
+  },
+  {
+    "word": "traffic management",
+    "phonetic": "/trˈæfɪk mˈænʌdʒmʌnt/",
+    "meaning": "quản lý giao thông",
+    "example": "Traffic management reduces bottlenecks."
+  },
+  {
+    "word": "road safety",
+    "phonetic": "/rˈoʊd sˈeɪfti/",
+    "meaning": "an toàn đường bộ",
+    "example": "Road safety campaigns save lives."
+  },
+  {
+    "word": "bike lane",
+    "phonetic": "/bˈaɪk lˈeɪn/",
+    "meaning": "làn xe đạp",
+    "example": "Bike lanes encourage cycling."
+  },
+  {
+    "word": "pedestrian",
+    "phonetic": "/pʌdˈestriʌn/",
+    "meaning": "người đi bộ",
+    "example": "Pedestrians need safe crossings."
+  },
+  {
+    "word": "logistics",
+    "phonetic": "/lʌdʒˈɪstɪks/",
+    "meaning": "hậu cần",
+    "example": "Logistics affects delivery speed."
+  },
+  {
+    "word": "freight",
+    "phonetic": "/frˈeɪt/",
+    "meaning": "hàng hóa vận chuyển",
+    "example": "Freight transport supports trade."
+  },
+  {
+    "word": "shipping",
+    "phonetic": "/ʃˈɪpɪŋ/",
+    "meaning": "vận tải biển",
+    "example": "Shipping is cost-effective."
+  },
+  {
+    "word": "aviation",
+    "phonetic": "/ˌeɪviˈeɪʃʌn/",
+    "meaning": "hàng không",
+    "example": "Aviation connects countries quickly."
+  },
+  {
+    "word": "carbon emissions",
+    "phonetic": "/kˈɑrbʌn ɪmˈɪʃʌnz/",
+    "meaning": "khí thải carbon",
+    "example": "Transport emissions contribute to warming."
+  },
+  {
+    "word": "commute",
+    "phonetic": "/kʌmjˈut/",
+    "meaning": "đi lại hằng ngày",
+    "example": "Long commutes reduce well-being."
+  },
+  {
+    "word": "fare",
+    "phonetic": "/fˈer/",
+    "meaning": "giá vé",
+    "example": "Lower fares attract passengers."
+  },
+  {
+    "word": "accessibility",
+    "phonetic": "/ˌæksesʌbˈɪlɪti/",
+    "meaning": "tiếp cận",
+    "example": "Accessibility matters for all users."
+  },
+  {
+    "word": "ride-sharing",
+    "phonetic": "/rˈaɪd ʃˈerɪŋ/",
+    "meaning": "đi chung xe",
+    "example": "Ride-sharing reduces car ownership."
+  },
+  {
+    "word": "electric bus",
+    "phonetic": "/ɪlˈektrɪk bˈʌs/",
+    "meaning": "xe buýt điện",
+    "example": "Electric buses cut noise pollution."
+  },
+  {
+    "word": "infrastructure",
+    "phonetic": "/ˌɪnfrʌstrˈʌktʃɝ/",
+    "meaning": "hạ tầng",
+    "example": "Infrastructure supports mobility."
+  },
+  {
+    "word": "urban mobility",
+    "phonetic": "/ˈɝbʌn moʊbˈɪlʌti/",
+    "meaning": "di chuyển đô thị",
+    "example": "Urban mobility improves with planning."
+  },
+  {
+    "word": "sustainable transport",
+    "phonetic": "/sʌstˈeɪnʌbʌl trænspˈɔrt/",
+    "meaning": "giao thông bền vững",
+    "example": "Sustainable transport prioritizes low emissions."
+  }
+]

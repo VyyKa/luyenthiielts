@@ -1,0 +1,122 @@
+[
+  {
+    "word": "electric vehicle",
+    "phonetic": "/ɪlˈektrɪk vˈihɪkʌl/",
+    "meaning": "xe điện",
+    "example": "Electric vehicles reduce local emissions."
+  },
+  {
+    "word": "hybrid car",
+    "phonetic": "/hˈaɪbrʌd kˈɑr/",
+    "meaning": "xe hybrid",
+    "example": "Hybrid cars save fuel in traffic."
+  },
+  {
+    "word": "fuel efficiency",
+    "phonetic": "/fjˈuʌl ɪfˈɪʃʌnsi/",
+    "meaning": "tiết kiệm nhiên liệu",
+    "example": "Fuel efficiency reduces commuting costs."
+  },
+  {
+    "word": "engine",
+    "phonetic": "/ˈendʒʌn/",
+    "meaning": "động cơ",
+    "example": "Engine performance affects speed."
+  },
+  {
+    "word": "maintenance",
+    "phonetic": "/mˈeɪntʌnʌns/",
+    "meaning": "bảo dưỡng",
+    "example": "Maintenance prevents breakdowns."
+  },
+  {
+    "word": "charging station",
+    "phonetic": "/tʃˈɑrdʒɪŋ stˈeɪʃʌn/",
+    "meaning": "trạm sạc",
+    "example": "Charging stations are expanding."
+  },
+  {
+    "word": "emission control",
+    "phonetic": "/ɪmˈɪʃʌn kʌntrˈoʊl/",
+    "meaning": "kiểm soát khí thải",
+    "example": "Emission control improves air quality."
+  },
+  {
+    "word": "traffic safety",
+    "phonetic": "/trˈæfɪk sˈeɪfti/",
+    "meaning": "an toàn giao thông",
+    "example": "Traffic safety depends on enforcement."
+  },
+  {
+    "word": "seat belt",
+    "phonetic": "/sˈit bˈelt/",
+    "meaning": "dây an toàn",
+    "example": "Seat belts reduce injuries."
+  },
+  {
+    "word": "airbag",
+    "phonetic": "/ˈerbˌæɡ/",
+    "meaning": "túi khí",
+    "example": "Airbags protect passengers."
+  },
+  {
+    "word": "braking system",
+    "phonetic": "/brˈeɪkɪŋ sˈɪstʌm/",
+    "meaning": "hệ thống phanh",
+    "example": "Braking systems must be reliable."
+  },
+  {
+    "word": "autonomous driving",
+    "phonetic": "/ɔtˈɑnʌmʌs drˈaɪvɪŋ/",
+    "meaning": "lái tự động",
+    "example": "Autonomous driving raises ethical issues."
+  },
+  {
+    "word": "navigation",
+    "phonetic": "/nˈævʌɡˈeɪʃʌn/",
+    "meaning": "định vị",
+    "example": "Navigation helps avoid congestion."
+  },
+  {
+    "word": "traffic jam",
+    "phonetic": "/trˈæfɪk dʒˈæm/",
+    "meaning": "kẹt xe",
+    "example": "Traffic jams waste time."
+  },
+  {
+    "word": "parking",
+    "phonetic": "/pˈɑrkɪŋ/",
+    "meaning": "đỗ xe",
+    "example": "Parking is limited downtown."
+  },
+  {
+    "word": "vehicle inspection",
+    "phonetic": "/vˈihɪkʌl ˌɪnspˈekʃʌn/",
+    "meaning": "kiểm định",
+    "example": "Inspection improves safety."
+  },
+  {
+    "word": "insurance",
+    "phonetic": "/ˌɪnʃˈʊrʌns/",
+    "meaning": "bảo hiểm",
+    "example": "Insurance reduces financial risk."
+  },
+  {
+    "word": "road infrastructure",
+    "phonetic": "/rˈoʊd ˌɪnfrʌstrˈʌktʃɝ/",
+    "meaning": "hạ tầng đường",
+    "example": "Road infrastructure needs upgrades."
+  },
+  {
+    "word": "resale value",
+    "phonetic": "/rˈisˌeɪl vˈælju/",
+    "meaning": "giá bán lại",
+    "example": "Resale value depends on condition."
+  },
+  {
+    "word": "automotive industry",
+    "phonetic": "/ˌɔtʌmˈoʊtɪv ˈɪndʌstri/",
+    "meaning": "ngành ô tô",
+    "example": "The automotive industry supports exports."
+  }
+]

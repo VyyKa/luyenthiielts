@@ -1,0 +1,122 @@
+[
+  {
+    "word": "excavation",
+    "phonetic": "/ˌekskʌvˈeɪʃʌn/",
+    "meaning": "khai quật",
+    "example": "Excavation must be done carefully."
+  },
+  {
+    "word": "artifact",
+    "phonetic": "/ˈɑrtʌfˌækt/",
+    "meaning": "hiện vật",
+    "example": "Artifacts reveal ancient lifestyles."
+  },
+  {
+    "word": "relic",
+    "phonetic": "/rˈelɪk/",
+    "meaning": "di vật",
+    "example": "Relics are preserved in museums."
+  },
+  {
+    "word": "ancient ruins",
+    "phonetic": "/ˈeɪntʃʌnt rˈuʌnz/",
+    "meaning": "tàn tích cổ",
+    "example": "Ancient ruins attract tourists."
+  },
+  {
+    "word": "preservation",
+    "phonetic": "/prˌezɝvˈeɪʃʌn/",
+    "meaning": "bảo tồn",
+    "example": "Preservation prevents decay."
+  },
+  {
+    "word": "carbon dating",
+    "phonetic": "/kˈɑrbʌn dˈeɪtɪŋ/",
+    "meaning": "định tuổi carbon",
+    "example": "Carbon dating estimates age."
+  },
+  {
+    "word": "stratigraphy",
+    "phonetic": "",
+    "meaning": "địa tầng học",
+    "example": "Stratigraphy studies soil layers."
+  },
+  {
+    "word": "pottery",
+    "phonetic": "/pˈɑtɝi/",
+    "meaning": "đồ gốm",
+    "example": "Pottery fragments are common finds."
+  },
+  {
+    "word": "inscription",
+    "phonetic": "/ˌɪnskrˈɪpʃʌn/",
+    "meaning": "chữ khắc",
+    "example": "Inscriptions provide written clues."
+  },
+  {
+    "word": "skeleton",
+    "phonetic": "/skˈelʌtʌn/",
+    "meaning": "bộ xương",
+    "example": "Skeletons reveal health and diet."
+  },
+  {
+    "word": "tomb",
+    "phonetic": "/tˈum/",
+    "meaning": "ngôi mộ",
+    "example": "Tombs may contain valuables."
+  },
+  {
+    "word": "burial site",
+    "phonetic": "/bˈeriʌl sˈaɪt/",
+    "meaning": "khu chôn cất",
+    "example": "Burial sites show rituals."
+  },
+  {
+    "word": "fieldwork",
+    "phonetic": "/fˈildwˌɝk/",
+    "meaning": "thực địa",
+    "example": "Fieldwork is physically demanding."
+  },
+  {
+    "word": "survey",
+    "phonetic": "/sɝvˈeɪ/",
+    "meaning": "khảo sát",
+    "example": "Surveys locate promising sites."
+  },
+  {
+    "word": "interpretation",
+    "phonetic": "/ˌɪntˌɝprɪtˈeɪʃʌn/",
+    "meaning": "diễn giải",
+    "example": "Interpretation depends on context."
+  },
+  {
+    "word": "documentation",
+    "phonetic": "/dˌɑkjʌmentˈeɪʃʌn/",
+    "meaning": "tài liệu hóa",
+    "example": "Documentation records discoveries."
+  },
+  {
+    "word": "museum",
+    "phonetic": "/mjuzˈiʌm/",
+    "meaning": "bảo tàng",
+    "example": "Museums display artifacts."
+  },
+  {
+    "word": "heritage site",
+    "phonetic": "/hˈerʌtʌdʒ sˈaɪt/",
+    "meaning": "di sản",
+    "example": "Heritage sites need protection."
+  },
+  {
+    "word": "ancient civilization",
+    "phonetic": "/ˈeɪntʃʌnt sˌɪvʌlɪzˈeɪʃʌn/",
+    "meaning": "nền văn minh cổ",
+    "example": "Ancient civilizations built complex societies."
+  },
+  {
+    "word": "restoration",
+    "phonetic": "/rˌestɝˈeɪʃʌn/",
+    "meaning": "phục chế",
+    "example": "Restoration repairs damaged objects."
+  }
+]

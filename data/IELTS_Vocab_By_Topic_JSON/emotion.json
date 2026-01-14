@@ -1,0 +1,122 @@
+[
+  {
+    "word": "happiness",
+    "phonetic": "/hˈæpinʌs/",
+    "meaning": "hạnh phúc",
+    "example": "Happiness often comes from strong relationships."
+  },
+  {
+    "word": "sadness",
+    "phonetic": "/sˈædnʌs/",
+    "meaning": "buồn bã",
+    "example": "Sadness is a natural response to loss."
+  },
+  {
+    "word": "anger",
+    "phonetic": "/ˈæŋɡɝ/",
+    "meaning": "giận dữ",
+    "example": "Anger can damage relationships if uncontrolled."
+  },
+  {
+    "word": "fear",
+    "phonetic": "/fˈɪr/",
+    "meaning": "nỗi sợ",
+    "example": "Fear can prevent people from taking opportunities."
+  },
+  {
+    "word": "anxiety",
+    "phonetic": "/æŋzˈaɪʌti/",
+    "meaning": "lo âu",
+    "example": "Anxiety can affect concentration."
+  },
+  {
+    "word": "stress",
+    "phonetic": "/strˈes/",
+    "meaning": "căng thẳng",
+    "example": "Stress management is essential for health."
+  },
+  {
+    "word": "confidence",
+    "phonetic": "/kˈɑnfʌdʌns/",
+    "meaning": "tự tin",
+    "example": "Confidence grows with practice."
+  },
+  {
+    "word": "self-esteem",
+    "phonetic": "/sˈelf ʌstˈim/",
+    "meaning": "lòng tự trọng",
+    "example": "Self-esteem can be affected by criticism."
+  },
+  {
+    "word": "empathy",
+    "phonetic": "/ˈempʌθi/",
+    "meaning": "đồng cảm",
+    "example": "Empathy improves communication."
+  },
+  {
+    "word": "compassion",
+    "phonetic": "/kʌmpˈæʃʌn/",
+    "meaning": "trắc ẩn",
+    "example": "Compassion encourages kindness."
+  },
+  {
+    "word": "motivation",
+    "phonetic": "/mˌoʊtʌvˈeɪʃʌn/",
+    "meaning": "động lực",
+    "example": "Motivation supports long-term goals."
+  },
+  {
+    "word": "frustration",
+    "phonetic": "/frʌstrˈeɪʃʌn/",
+    "meaning": "bực bội",
+    "example": "Frustration occurs when plans fail."
+  },
+  {
+    "word": "resilience",
+    "phonetic": "/rɪzˈɪliʌns/",
+    "meaning": "kiên cường",
+    "example": "Resilience helps people recover from setbacks."
+  },
+  {
+    "word": "gratitude",
+    "phonetic": "/ɡrˈætʌtˌud/",
+    "meaning": "biết ơn",
+    "example": "Gratitude improves mood."
+  },
+  {
+    "word": "loneliness",
+    "phonetic": "/lˈoʊnlinʌs/",
+    "meaning": "cô đơn",
+    "example": "Loneliness is common in big cities."
+  },
+  {
+    "word": "burnout",
+    "phonetic": "/bˈɝnˌaʊt/",
+    "meaning": "kiệt sức",
+    "example": "Burnout is common in high-pressure jobs."
+  },
+  {
+    "word": "inner peace",
+    "phonetic": "/ˈɪnɝ pˈis/",
+    "meaning": "bình yên",
+    "example": "Meditation can promote inner peace."
+  },
+  {
+    "word": "optimism",
+    "phonetic": "/ˈɑptʌmˌɪzʌm/",
+    "meaning": "lạc quan",
+    "example": "Optimism supports resilience."
+  },
+  {
+    "word": "pessimism",
+    "phonetic": "/pˈesʌmˌɪzʌm/",
+    "meaning": "bi quan",
+    "example": "Pessimism may reduce effort."
+  },
+  {
+    "word": "emotional support",
+    "phonetic": "/ɪmˈoʊʃʌnʌl sʌpˈɔrt/",
+    "meaning": "hỗ trợ tinh thần",
+    "example": "Emotional support helps during hard times."
+  }
+]

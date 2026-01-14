@@ -1,0 +1,122 @@
+[
+  {
+    "word": "urbanization",
+    "phonetic": "/ˌɝbʌnʌzˈeɪʃʌn/",
+    "meaning": "đô thị hóa",
+    "example": "Urbanization attracts people seeking jobs and services."
+  },
+  {
+    "word": "infrastructure",
+    "phonetic": "/ˌɪnfrʌstrˈʌktʃɝ/",
+    "meaning": "cơ sở hạ tầng",
+    "example": "Infrastructure investment improves quality of life."
+  },
+  {
+    "word": "traffic congestion",
+    "phonetic": "/trˈæfɪk kʌndʒˈestʃʌn/",
+    "meaning": "ùn tắc",
+    "example": "Traffic congestion wastes time and fuel."
+  },
+  {
+    "word": "housing",
+    "phonetic": "/hˈaʊzɪŋ/",
+    "meaning": "nhà ở",
+    "example": "Housing costs have risen sharply in big cities."
+  },
+  {
+    "word": "affordable housing",
+    "phonetic": "/ʌfˈɔrdʌbʌl hˈaʊzɪŋ/",
+    "meaning": "nhà ở giá rẻ",
+    "example": "Affordable housing is a challenge for many cities."
+  },
+  {
+    "word": "suburb",
+    "phonetic": "/sˈʌbɝb/",
+    "meaning": "ngoại ô",
+    "example": "Suburbs are quieter than downtown areas."
+  },
+  {
+    "word": "downtown",
+    "phonetic": "/dˈaʊntˈaʊn/",
+    "meaning": "trung tâm",
+    "example": "Downtown offers more job opportunities."
+  },
+  {
+    "word": "city planning",
+    "phonetic": "/sˈɪti plˈænɪŋ/",
+    "meaning": "quy hoạch đô thị",
+    "example": "City planning shapes land use and transport."
+  },
+  {
+    "word": "green space",
+    "phonetic": "/ɡrˈin spˈeɪs/",
+    "meaning": "không gian xanh",
+    "example": "Green spaces improve air quality."
+  },
+  {
+    "word": "public facilities",
+    "phonetic": "/pˈʌblɪk fʌsˈɪlʌtiz/",
+    "meaning": "tiện ích công cộng",
+    "example": "Public facilities include libraries and parks."
+  },
+  {
+    "word": "noise pollution",
+    "phonetic": "/nˈɔɪz pʌlˈuʃʌn/",
+    "meaning": "ô nhiễm tiếng ồn",
+    "example": "Noise pollution affects sleep and concentration."
+  },
+  {
+    "word": "community",
+    "phonetic": "/kʌmjˈunʌti/",
+    "meaning": "cộng đồng",
+    "example": "Community events strengthen social ties."
+  },
+  {
+    "word": "neighborhood",
+    "phonetic": "/nˈeɪbɝhˌʊd/",
+    "meaning": "khu dân cư",
+    "example": "Neighborhood safety influences quality of life."
+  },
+  {
+    "word": "skyscraper",
+    "phonetic": "/skˈaɪskrˌeɪpɝ/",
+    "meaning": "nhà chọc trời",
+    "example": "Skyscrapers maximize space in crowded cities."
+  },
+  {
+    "word": "pedestrian zone",
+    "phonetic": "/pʌdˈestriʌn zˈoʊn/",
+    "meaning": "phố đi bộ",
+    "example": "Pedestrian zones make cities more walkable."
+  },
+  {
+    "word": "bike lane",
+    "phonetic": "/bˈaɪk lˈeɪn/",
+    "meaning": "làn xe đạp",
+    "example": "Bike lanes encourage eco-friendly commuting."
+  },
+  {
+    "word": "commute",
+    "phonetic": "/kʌmjˈut/",
+    "meaning": "đi lại hằng ngày",
+    "example": "A long commute reduces free time."
+  },
+  {
+    "word": "overcrowding",
+    "phonetic": "/ˈoʊvɝkrˌaʊdɪŋ/",
+    "meaning": "quá đông",
+    "example": "Overcrowding puts pressure on services."
+  },
+  {
+    "word": "urban renewal",
+    "phonetic": "/ˈɝbʌn rɪnˈuʌl/",
+    "meaning": "tái thiết đô thị",
+    "example": "Urban renewal can improve old districts."
+  },
+  {
+    "word": "tourist attraction",
+    "phonetic": "/tˈʊrʌst ʌtrˈækʃʌn/",
+    "meaning": "điểm du lịch",
+    "example": "Tourist attractions create jobs for locals."
+  }
+]

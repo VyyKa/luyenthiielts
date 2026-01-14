@@ -1,0 +1,122 @@
+[
+  {
+    "word": "crime scene",
+    "phonetic": "/krˈaɪm sˈin/",
+    "meaning": "hiện trường",
+    "example": "The crime scene must be secured to protect evidence."
+  },
+  {
+    "word": "evidence",
+    "phonetic": "/ˈevʌdʌns/",
+    "meaning": "bằng chứng",
+    "example": "Evidence must be handled carefully."
+  },
+  {
+    "word": "fingerprints",
+    "phonetic": "/fˈɪŋɡɝprˌɪnts/",
+    "meaning": "vân tay",
+    "example": "Fingerprints can link a suspect to an object."
+  },
+  {
+    "word": "DNA profiling",
+    "phonetic": "/dˈiˌenˈeɪ prˈoʊfˌaɪlɪŋ/",
+    "meaning": "giám định ADN",
+    "example": "DNA profiling identifies suspects accurately."
+  },
+  {
+    "word": "toxicology",
+    "phonetic": "/tˌɑksɪkˈɑlʌdʒi/",
+    "meaning": "độc chất học",
+    "example": "Toxicology detects drugs or poisons."
+  },
+  {
+    "word": "autopsy",
+    "phonetic": "/ˈɔtˌɑpsi/",
+    "meaning": "khám nghiệm tử thi",
+    "example": "An autopsy can determine cause of death."
+  },
+  {
+    "word": "cause of death",
+    "phonetic": "/kˈɑz ˈʌv dˈeθ/",
+    "meaning": "nguyên nhân tử vong",
+    "example": "The cause of death may be unclear at first."
+  },
+  {
+    "word": "ballistics",
+    "phonetic": "/bʌlˈɪstɪks/",
+    "meaning": "đạn đạo học",
+    "example": "Ballistics matches bullets to weapons."
+  },
+  {
+    "word": "trace evidence",
+    "phonetic": "/trˈeɪs ˈevʌdʌns/",
+    "meaning": "dấu vết vi lượng",
+    "example": "Trace evidence includes hair and fibers."
+  },
+  {
+    "word": "forensic report",
+    "phonetic": "/fɝˈensɪk ripˈɔrt/",
+    "meaning": "báo cáo pháp y",
+    "example": "Forensic reports must be objective."
+  },
+  {
+    "word": "chain of custody",
+    "phonetic": "/tʃˈeɪn ˈʌv kˈʌstʌdi/",
+    "meaning": "chuỗi bảo quản",
+    "example": "Chain of custody records evidence handling."
+  },
+  {
+    "word": "contamination",
+    "phonetic": "/kʌntˌæmʌnˈeɪʃʌn/",
+    "meaning": "nhiễm bẩn",
+    "example": "Contamination can make evidence unreliable."
+  },
+  {
+    "word": "digital forensics",
+    "phonetic": "/dˈɪdʒʌtʌl fɝˈensɪks/",
+    "meaning": "pháp y số",
+    "example": "Digital forensics recovers deleted data."
+  },
+  {
+    "word": "investigation",
+    "phonetic": "/ˌɪnvˌestʌɡˈeɪʃʌn/",
+    "meaning": "điều tra",
+    "example": "Forensics supports criminal investigations."
+  },
+  {
+    "word": "suspect",
+    "phonetic": "/sʌspˈekt/",
+    "meaning": "nghi phạm",
+    "example": "The suspect was questioned after new evidence."
+  },
+  {
+    "word": "witness",
+    "phonetic": "/wˈɪtnʌs/",
+    "meaning": "nhân chứng",
+    "example": "Witness statements may support findings."
+  },
+  {
+    "word": "microscopy",
+    "phonetic": "/maɪkrˈʌskʌpi/",
+    "meaning": "kính hiển vi",
+    "example": "Microscopy analyzes tiny particles."
+  },
+  {
+    "word": "forensic pathology",
+    "phonetic": "/fɝˈensɪk pʌθˈɑlʌdʒi/",
+    "meaning": "giải phẫu bệnh pháp y",
+    "example": "Forensic pathology studies death causes."
+  },
+  {
+    "word": "crime reconstruction",
+    "phonetic": "/krˈaɪm rˌikʌnstrˈʌkʃʌn/",
+    "meaning": "tái dựng",
+    "example": "Crime reconstruction combines evidence and logic."
+  },
+  {
+    "word": "court testimony",
+    "phonetic": "/kˈɔrt tˈestʌmˌoʊni/",
+    "meaning": "lời khai chuyên gia",
+    "example": "Experts provide testimony in court."
+  }
+]

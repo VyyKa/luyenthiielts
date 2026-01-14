@@ -1,0 +1,122 @@
+[
+  {
+    "word": "offender",
+    "phonetic": "/ʌfˈendɝ/",
+    "meaning": "người phạm tội",
+    "example": "Offenders should be rehabilitated to reduce reoffending."
+  },
+  {
+    "word": "victim",
+    "phonetic": "/vˈɪktʌm/",
+    "meaning": "nạn nhân",
+    "example": "Victims need legal and psychological support."
+  },
+  {
+    "word": "law enforcement",
+    "phonetic": "/lˈɔ enfˈɔrsmʌnt/",
+    "meaning": "cơ quan thực thi pháp luật",
+    "example": "Law enforcement maintains public safety."
+  },
+  {
+    "word": "investigation",
+    "phonetic": "/ˌɪnvˌestʌɡˈeɪʃʌn/",
+    "meaning": "điều tra",
+    "example": "An investigation collects evidence to identify suspects."
+  },
+  {
+    "word": "evidence",
+    "phonetic": "/ˈevʌdʌns/",
+    "meaning": "bằng chứng",
+    "example": "Strong evidence is required to secure a conviction."
+  },
+  {
+    "word": "trial",
+    "phonetic": "/trˈaɪʌl/",
+    "meaning": "phiên tòa",
+    "example": "A fair trial protects the rights of both sides."
+  },
+  {
+    "word": "verdict",
+    "phonetic": "/vˈɝdɪkt/",
+    "meaning": "phán quyết",
+    "example": "The verdict depends on evidence and legal arguments."
+  },
+  {
+    "word": "conviction",
+    "phonetic": "/kʌnvˈɪkʃʌn/",
+    "meaning": "kết án",
+    "example": "Conviction can have long-lasting consequences."
+  },
+  {
+    "word": "sentence",
+    "phonetic": "/sˈentʌns/",
+    "meaning": "bản án",
+    "example": "The judge decides the sentence based on severity."
+  },
+  {
+    "word": "imprisonment",
+    "phonetic": "/ˌɪmprˈɪzʌnmʌnt/",
+    "meaning": "giam giữ",
+    "example": "Imprisonment aims to punish and deter crime."
+  },
+  {
+    "word": "deterrence",
+    "phonetic": "/dɪtˈɝʌns/",
+    "meaning": "răn đe",
+    "example": "Deterrence aims to prevent future crimes."
+  },
+  {
+    "word": "rehabilitation",
+    "phonetic": "/rˌihʌbˌɪlʌtˈeɪʃʌn/",
+    "meaning": "cải tạo",
+    "example": "Rehabilitation helps offenders reintegrate."
+  },
+  {
+    "word": "parole",
+    "phonetic": "/pɝˈoʊl/",
+    "meaning": "tạm tha",
+    "example": "Parole allows prisoners to return gradually."
+  },
+  {
+    "word": "community service",
+    "phonetic": "/kʌmjˈunʌti sˈɝvʌs/",
+    "meaning": "lao động công ích",
+    "example": "Community service can be an alternative to prison."
+  },
+  {
+    "word": "fine",
+    "phonetic": "/fˈaɪn/",
+    "meaning": "phạt tiền",
+    "example": "Fines are common for minor violations."
+  },
+  {
+    "word": "juvenile crime",
+    "phonetic": "/dʒˈuvʌnʌl krˈaɪm/",
+    "meaning": "tội phạm vị thành niên",
+    "example": "Juvenile crime relates to family and education."
+  },
+  {
+    "word": "violent crime",
+    "phonetic": "/vˈaɪʌlʌnt krˈaɪm/",
+    "meaning": "tội phạm bạo lực",
+    "example": "Violent crime creates fear in communities."
+  },
+  {
+    "word": "fraud",
+    "phonetic": "/frˈɔd/",
+    "meaning": "lừa đảo",
+    "example": "Online fraud has increased with digital payments."
+  },
+  {
+    "word": "corruption",
+    "phonetic": "/kɝˈʌpʃʌn/",
+    "meaning": "tham nhũng",
+    "example": "Corruption undermines trust in institutions."
+  },
+  {
+    "word": "cybercrime",
+    "phonetic": "",
+    "meaning": "tội phạm mạng",
+    "example": "Cybercrime targets data and financial accounts."
+  }
+]

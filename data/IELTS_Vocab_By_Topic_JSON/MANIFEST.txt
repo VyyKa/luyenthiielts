@@ -1,0 +1,33 @@
+Environment	environment.json	20 words
+Health	health.json	20 words
+Technology	technology.json	20 words
+Education	education.json	20 words
+Travel	travel.json	20 words
+Sports	sports.json	20 words
+Family	family.json	20 words
+Food & Drinks	food_and_drinks.json	20 words
+Work & Career	work_and_career.json	20 words
+Crime & Punishment	crime_and_punishment.json	20 words
+Social Media	social_media.json	20 words
+Art & Music	art_and_music.json	20 words
+Weather	weather.json	20 words
+Movie & Books	movie_and_books.json	20 words
+Advertising	advertising.json	20 words
+Town & City	town_and_city.json	20 words
+Money	money.json	20 words
+Marriage & Family	marriage_and_family.json	20 words
+Celebrities	celebrities.json	20 words
+Entertainment	entertainment.json	20 words
+Fashion	fashion.json	20 words
+Invention	invention.json	20 words
+History	history.json	20 words
+Emotion	emotion.json	20 words
+Aviation	aviation.json	20 words
+Forensic Science	forensic_science.json	20 words
+Astronomy	astronomy.json	20 words
+Philosophy	philosophy.json	20 words
+Leisure & Hobbies	leisure_and_hobbies.json	20 words
+Architecture	architecture.json	20 words
+Archaeology	archaeology.json	20 words
+Automotive	automotive.json	20 words
+Transportation	transportation.json	20 words

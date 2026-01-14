@@ -1,0 +1,122 @@
+[
+  {
+    "word": "sustainability",
+    "phonetic": "/sʌstˌeɪnʌbˈɪlɪti/",
+    "meaning": "tính bền vững",
+    "example": "Sustainability should be a priority in national development plans."
+  },
+  {
+    "word": "biodiversity",
+    "phonetic": "/bˌaɪoʊdaɪvˈɝsʌti/",
+    "meaning": "đa dạng sinh học",
+    "example": "Biodiversity loss can weaken ecosystems and threaten food security."
+  },
+  {
+    "word": "deforestation",
+    "phonetic": "/dɪfˌɔrɪstˈeɪʃʌn/",
+    "meaning": "phá rừng",
+    "example": "Deforestation accelerates climate change by reducing carbon absorption."
+  },
+  {
+    "word": "conservation",
+    "phonetic": "/kˌɑnsɝvˈeɪʃʌn/",
+    "meaning": "bảo tồn",
+    "example": "Wildlife conservation requires long-term funding and strict enforcement."
+  },
+  {
+    "word": "ecosystem",
+    "phonetic": "/ˈikoʊsˌɪstʌm/",
+    "meaning": "hệ sinh thái",
+    "example": "A healthy ecosystem provides clean air, water, and fertile soil."
+  },
+  {
+    "word": "renewable energy",
+    "phonetic": "/rinˈuʌbʌl ˈenɝdʒi/",
+    "meaning": "năng lượng tái tạo",
+    "example": "Renewable energy can reduce reliance on fossil fuels."
+  },
+  {
+    "word": "fossil fuels",
+    "phonetic": "/fˈɑsʌl fjˈuʌlz/",
+    "meaning": "nhiên liệu hóa thạch",
+    "example": "Fossil fuels remain dominant despite their environmental costs."
+  },
+  {
+    "word": "carbon footprint",
+    "phonetic": "/kˈɑrbʌn fˈʊtprˌɪnt/",
+    "meaning": "dấu chân carbon",
+    "example": "Individuals can cut their carbon footprint by using public transport."
+  },
+  {
+    "word": "greenhouse gases",
+    "phonetic": "/ɡrˈinhˌaʊs ɡˈæsʌz/",
+    "meaning": "khí nhà kính",
+    "example": "Greenhouse gases trap heat and raise global temperatures."
+  },
+  {
+    "word": "air pollution",
+    "phonetic": "/ˈer pʌlˈuʃʌn/",
+    "meaning": "ô nhiễm không khí",
+    "example": "Air pollution is linked to respiratory diseases in urban areas."
+  },
+  {
+    "word": "water pollution",
+    "phonetic": "/wˈɔtɝ pʌlˈuʃʌn/",
+    "meaning": "ô nhiễm nguồn nước",
+    "example": "Water pollution often comes from industrial discharge and sewage."
+  },
+  {
+    "word": "plastic waste",
+    "phonetic": "/plˈæstɪk wˈeɪst/",
+    "meaning": "rác thải nhựa",
+    "example": "Plastic waste damages marine life and enters the food chain."
+  },
+  {
+    "word": "recycling",
+    "phonetic": "/risˈaɪkʌlɪŋ/",
+    "meaning": "tái chế",
+    "example": "Recycling works best when households sort waste properly."
+  },
+  {
+    "word": "landfill",
+    "phonetic": "/lˈændfˌɪl/",
+    "meaning": "bãi chôn lấp rác",
+    "example": "Overuse of landfill sites can contaminate nearby groundwater."
+  },
+  {
+    "word": "emissions",
+    "phonetic": "/ɪmˈɪʃʌnz/",
+    "meaning": "khí thải",
+    "example": "Stricter regulations can push companies to lower emissions."
+  },
+  {
+    "word": "climate change",
+    "phonetic": "/klˈaɪmʌt tʃˈeɪndʒ/",
+    "meaning": "biến đổi khí hậu",
+    "example": "Climate change increases the frequency of extreme weather events."
+  },
+  {
+    "word": "global warming",
+    "phonetic": "/ɡlˈoʊbʌl wˈɔrmɪŋ/",
+    "meaning": "nóng lên toàn cầu",
+    "example": "Global warming has contributed to rising sea levels."
+  },
+  {
+    "word": "natural resources",
+    "phonetic": "/nˈætʃɝʌl rˈisɔrsɪz/",
+    "meaning": "tài nguyên thiên nhiên",
+    "example": "Natural resources should be used efficiently to avoid depletion."
+  },
+  {
+    "word": "endangered species",
+    "phonetic": "/endˈeɪndʒɝd spˈiʃiz/",
+    "meaning": "loài nguy cấp",
+    "example": "Habitat loss puts many endangered species at risk."
+  },
+  {
+    "word": "habitat",
+    "phonetic": "/hˈæbʌtˌæt/",
+    "meaning": "môi trường sống",
+    "example": "Protecting habitat is essential for species survival."
+  }
+]

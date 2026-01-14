@@ -1,0 +1,122 @@
+[
+  {
+    "word": "forecast",
+    "phonetic": "/fˈɔrkˌæst/",
+    "meaning": "dự báo",
+    "example": "The forecast predicts heavy rain this weekend."
+  },
+  {
+    "word": "temperature",
+    "phonetic": "/tˈemprʌtʃɝ/",
+    "meaning": "nhiệt độ",
+    "example": "Temperature can vary sharply between day and night."
+  },
+  {
+    "word": "humidity",
+    "phonetic": "/hjumˈɪdʌti/",
+    "meaning": "độ ẩm",
+    "example": "High humidity makes hot weather feel worse."
+  },
+  {
+    "word": "heatwave",
+    "phonetic": "",
+    "meaning": "đợt nắng nóng",
+    "example": "A heatwave can increase the risk of heatstroke."
+  },
+  {
+    "word": "drought",
+    "phonetic": "/drˈaʊt/",
+    "meaning": "hạn hán",
+    "example": "Drought threatens agriculture and water supplies."
+  },
+  {
+    "word": "flood",
+    "phonetic": "/flˈʌd/",
+    "meaning": "lũ lụt",
+    "example": "Floods can destroy homes and infrastructure."
+  },
+  {
+    "word": "storm",
+    "phonetic": "/stˈɔrm/",
+    "meaning": "bão",
+    "example": "Storm warnings help people prepare in advance."
+  },
+  {
+    "word": "typhoon",
+    "phonetic": "/tˌaɪfˈun/",
+    "meaning": "bão mạnh",
+    "example": "A typhoon can cause severe damage in coastal areas."
+  },
+  {
+    "word": "fog",
+    "phonetic": "/fˈɑɡ/",
+    "meaning": "sương mù",
+    "example": "Fog reduces visibility and increases accident risk."
+  },
+  {
+    "word": "extreme weather",
+    "phonetic": "/ekstrˈim wˈeðɝ/",
+    "meaning": "thời tiết cực đoan",
+    "example": "Extreme weather events are becoming more common."
+  },
+  {
+    "word": "natural disaster",
+    "phonetic": "/nˈætʃɝʌl dɪzˈæstɝ/",
+    "meaning": "thiên tai",
+    "example": "Natural disasters require strong emergency planning."
+  },
+  {
+    "word": "rainfall",
+    "phonetic": "/rˈeɪnfˌɔl/",
+    "meaning": "lượng mưa",
+    "example": "Rainfall patterns have shifted in recent decades."
+  },
+  {
+    "word": "cloudy",
+    "phonetic": "/klˈaʊdi/",
+    "meaning": "nhiều mây",
+    "example": "Cloudy skies can lower solar energy production."
+  },
+  {
+    "word": "sunshine",
+    "phonetic": "/sˈʌnʃˌaɪn/",
+    "meaning": "ánh nắng",
+    "example": "Sunshine boosts mood for many people."
+  },
+  {
+    "word": "monsoon",
+    "phonetic": "/mɑnsˈun/",
+    "meaning": "mùa gió mùa",
+    "example": "The monsoon season brings intense rain to some regions."
+  },
+  {
+    "word": "windy",
+    "phonetic": "/wˈɪndi/",
+    "meaning": "nhiều gió",
+    "example": "Windy conditions can disrupt flights."
+  },
+  {
+    "word": "lightning",
+    "phonetic": "/lˈaɪtnɪŋ/",
+    "meaning": "chớp",
+    "example": "Lightning can be dangerous in open areas."
+  },
+  {
+    "word": "thunder",
+    "phonetic": "/θˈʌndɝ/",
+    "meaning": "sấm",
+    "example": "Thunder often follows lightning during storms."
+  },
+  {
+    "word": "snowfall",
+    "phonetic": "/snˈoʊfɑl/",
+    "meaning": "tuyết rơi",
+    "example": "Heavy snowfall can block roads."
+  },
+  {
+    "word": "climate",
+    "phonetic": "/klˈaɪmʌt/",
+    "meaning": "khí hậu",
+    "example": "Climate affects lifestyle and agriculture."
+  }
+]
