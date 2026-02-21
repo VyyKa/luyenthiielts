@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useEffect } from 'react'
+import Image from 'next/image'
 
 interface ProfileModalProps {
   isOpen: boolean
@@ -60,7 +61,7 @@ export default function ProfileModal({ isOpen, onClose }: ProfileModalProps) {
         
         <form className="profile-form" onSubmit={handleSubmit}>
           <div className="form-group avatar-upload">
-            <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=ielts" alt="Avatar" className="profile-avatar" id="profileAvatar" />
+            <Image src="https://api.dicebear.com/7.x/avataaars/svg?seed=ielts" alt="Avatar" className="profile-avatar" id="profileAvatar" width={100} height={100} unoptimized />
             <button type="button" className="change-avatar-btn">Đổi avatar</button>
           </div>
           

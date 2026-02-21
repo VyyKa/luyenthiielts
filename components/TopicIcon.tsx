@@ -30,8 +30,6 @@ import {
   FiUsers,
   FiDroplet,
   FiPackage,
-  FiLayers,
-  FiTarget,
   FiFlag,
   FiTrendingUp,
   FiType,

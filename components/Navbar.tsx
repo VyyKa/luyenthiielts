@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import { usePathname } from 'next/navigation'
 import { useTheme } from './ThemeProvider'
 import ProfileModal from './ProfileModal'
@@ -95,7 +96,7 @@ export default function Navbar() {
               <FiMoon className="moon-icon" />
             </button>
             <button className="profile-btn" onClick={() => setIsProfileOpen(true)}>
-              <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=ielts" alt="Avatar" className="avatar" />
+              <Image src="https://api.dicebear.com/7.x/avataaars/svg?seed=ielts" alt="Avatar" className="avatar" width={32} height={32} unoptimized />
               <span className="profile-name">Học viên</span>
             </button>
           </div>
