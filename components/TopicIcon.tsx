@@ -1,4 +1,4 @@
-import type { CSSProperties } from 'react'
+import type { CSSProperties, ComponentType } from 'react'
 import {
   FiActivity,
   FiAperture,
@@ -25,8 +25,99 @@ import {
   FiTool,
   FiTruck,
   FiAlertTriangle,
+  FiCalendar,
+  FiClock,
+  FiUsers,
+  FiDroplet,
+  FiPackage,
+  FiLayers,
+  FiTarget,
+  FiFlag,
+  FiTrendingUp,
+  FiType,
+  FiCircle,
 } from 'react-icons/fi'
 import { topics } from '@/data/vocabulary'
+
+const TOPIC_ICON_MAP: Record<string, ComponentType<{ className?: string; style?: CSSProperties; 'aria-label'?: string; role?: string }>> = {
+  environment: FiGlobe,
+  health: FiHeart,
+  technology: FiCpu,
+  education: FiBookOpen,
+  travel: FiCompass,
+  sports: FiActivity,
+  family: FiHeart,
+  food: FiGrid,
+  work: FiBriefcase,
+  crime: FiShield,
+  'social-media': FiShare2,
+  art: FiImage,
+  weather: FiCloud,
+  'time-calendar': FiCalendar,
+  subjects: FiBookOpen,
+  marketing: FiTrendingUp,
+  geography: FiGlobe,
+  money: FiDollarSign,
+  nature: FiAperture,
+  countries: FiMapPin,
+  languages: FiType,
+  verbs: FiActivity,
+  adjectives: FiType,
+  shapes: FiCircle,
+  color: FiDroplet,
+  time: FiClock,
+  city: FiMapPin,
+  places: FiMapPin,
+  homes: FiHome,
+  qualities: FiStar,
+  architecture: FiHome,
+  hobbies: FiStar,
+  materials: FiPackage,
+  touring: FiCompass,
+  'arts-media': FiFilm,
+  equipment: FiTool,
+  works: FiBriefcase,
+  transport: FiTruck,
+  others: FiGrid,
+  literature: FiBookOpen,
+  psychology: FiSmile,
+  biology: FiActivity,
+  linguistics: FiType,
+  science: FiAperture,
+  anthropology: FiUsers,
+  philosophy: FiAperture,
+  economics: FiTrendingUp,
+  finance: FiDollarSign,
+  astrophysics: FiAperture,
+  history: FiBookOpen,
+  cosmology: FiAperture,
+  criminology: FiShield,
+  politics: FiFlag,
+  forensics: FiSearch,
+  aviation: FiNavigation,
+  engineering: FiTool,
+  chemistry: FiDroplet,
+  ornithology: FiActivity,
+  insurance: FiShield,
+  archaeology: FiTool,
+  law: FiShield,
+  'real-estate': FiHome,
+  agriculture: FiTrendingUp,
+  cinematography: FiFilm,
+  accounting: FiDollarSign,
+  hr: FiUsers,
+  marriage: FiHeart,
+  movie: FiFilm,
+  advertising: FiStar,
+  entertainment: FiMusic,
+  celebrities: FiStar,
+  fashion: FiAperture,
+  invention: FiTool,
+  emotion: FiSmile,
+  transportation: FiNavigation,
+  leisure: FiCompass,
+  automotive: FiTruck,
+}
 
 export default function TopicIcon({
   topicId,
@@ -38,96 +129,25 @@ export default function TopicIcon({
   style?: CSSProperties
 }) {
   const topic = topics.find((t) => t.id === topicId)
-  const iconStyle = style
-
-  const IconComponent = (() => {
-    switch (topicId) {
-      case 'environment':
-        return FiGlobe
-      case 'health':
-        return FiHeart
-      case 'technology':
-        return FiCpu
-      case 'sports':
-        return FiActivity
-      case 'family':
-      case 'marriage':
-        return FiHeart
-      case 'food':
-        return FiGrid
-      case 'work':
-        return FiBriefcase
-      case 'crime':
-        return FiShield
-      case 'social-media':
-        return FiShare2
-      case 'art':
-        return FiImage
-      case 'weather':
-        return FiCloud
-      case 'movie':
-        return FiFilm
-      case 'advertising':
-        return FiStar
-      case 'city':
-        return FiMapPin
-      case 'money':
-        return FiDollarSign
-      case 'travel':
-        return FiCompass
-      case 'education':
-        return FiBookOpen
-      case 'entertainment':
-        return FiMusic
-      case 'celebrities':
-        return FiStar
-      case 'fashion':
-        return FiAperture
-      case 'invention':
-        return FiTool
-      case 'emotion':
-        return FiSmile
-      case 'aviation':
-      case 'transportation':
-        return FiNavigation
-      case 'forensicscience':
-        return FiSearch
-      case 'astronomy':
-      case 'philosophy':
-        return FiAperture
-      case 'leisure':
-        return FiCompass
-      case 'architecture':
-        return FiHome
-      case 'archaeology':
-        return FiTool
-      case 'automotive':
-        return FiTruck
-      case 'history':
-        return FiBookOpen
-      default:
-        return undefined
-    }
-  })()
+  const IconComponent = TOPIC_ICON_MAP[topicId]
 
   if (IconComponent) {
     return (
       <IconComponent
         className={className}
-        style={iconStyle}
+        style={style}
         aria-label={topic ? `${topic.name} icon` : 'topic icon'}
         role="img"
       />
     )
   }
 
-  if (!topic) {
-    return <FiAlertTriangle className={className} style={iconStyle} aria-hidden="true" />
-  }
-
   return (
-    <span className={className} style={iconStyle} role="img" aria-label={`${topic.name} icon`}>
-      {topic.icon}
-    </span>
+    <FiAlertTriangle
+      className={className}
+      style={style}
+      aria-label={topic ? `${topic.name} icon` : 'topic icon'}
+      role="img"
+    />
   )
 }

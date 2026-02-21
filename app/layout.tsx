@@ -1,4 +1,4 @@
-import type { Metadata } from 'next'
+import type { Metadata, Viewport } from 'next'
 import { Inter, Nunito } from 'next/font/google'
 import './globals.css'
 import Navbar from '@/components/Navbar'
@@ -22,6 +22,13 @@ const nunito = Nunito({
 export const metadata: Metadata = {
   title: 'IELTS Vocabulary Master | Học Từ Vựng IELTS',
   description: 'Học từ vựng IELTS theo chủ đề với flashcards tương tác và theo dõi tiến độ học tập',
+}
+
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 5,
+  viewportFit: 'cover',
 }
 
 export default function RootLayout({

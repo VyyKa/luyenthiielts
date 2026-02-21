@@ -46,11 +46,11 @@ export default function QuizPage() {
       const correctAnswer = word.meaning
 
       // Get 3 random wrong answers from other words
-      const otherWords = topic.vocabulary.filter(w => w.word !== word.word)
+      const otherWords = topic.vocabulary.filter((w: Vocabulary) => w.word !== word.word)
       const wrongAnswers = otherWords
         .sort(() => Math.random() - 0.5)
         .slice(0, 3)
-        .map(w => w.meaning)
+        .map((w: Vocabulary) => w.meaning)
 
       // Shuffle options
       const options = [correctAnswer, ...wrongAnswers].sort(() => Math.random() - 0.5)

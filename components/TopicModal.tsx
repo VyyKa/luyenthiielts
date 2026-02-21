@@ -2,7 +2,6 @@
 
 import { Topic } from '@/data/vocabulary'
 import { useState } from 'react'
-import Link from 'next/link'
 import TopicIcon from './TopicIcon'
 import { FiLayers, FiFileText } from 'react-icons/fi'
 
@@ -14,6 +13,21 @@ interface TopicModalProps {
 
 export default function TopicModal({ topic, isOpen, onClose }: TopicModalProps) {
   const [learnedWords, setLearnedWords] = useState<Set<string>>(new Set())
+
+  const handleStartFlashcards = () => {
+    // Store selected topic for flashcards
+    if (typeof window !== 'undefined') {
+      localStorage.setItem('selectedTopic', topic.id)
+    }
+    onClose()
+    // Scroll to flashcards section
+    setTimeout(() => {
+      const element = document.getElementById('flashcards')
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' })
+      }
+    }, 100)
+  }
 
   const toggleLearned = (word: string) => {
     const newSet = new Set(learnedWords)
@@ -38,12 +52,12 @@ export default function TopicModal({ topic, isOpen, onClose }: TopicModalProps) 
         </div>
         
         <div className="topic-modal-actions">
-          <Link href={`/study/${topic.id}`} className="btn btn-primary" onClick={onClose}>
+          <button className="btn btn-primary" onClick={handleStartFlashcards}>
             <FiLayers style={{ marginRight: '8px' }} /> Học Flashcard
-          </Link>
-          <Link href={`/quiz/${topic.id}`} className="btn btn-secondary" onClick={onClose}>
+          </button>
+          <button className="btn btn-secondary" onClick={onClose}>
             <FiFileText style={{ marginRight: '8px' }} /> Làm Quiz
-          </Link>
+          </button>
         </div>
         
         <div className="vocabulary-list">

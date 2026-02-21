@@ -13,9 +13,10 @@ const ThemeContext = createContext<ThemeContextType | undefined>(undefined)
 
 export default function ThemeProvider({ children }: { children: React.ReactNode }) {
   const [theme, setTheme] = useState<Theme>('light')
-  const [mounted, setMounted] = useState(false)
+  const [, setMounted] = useState(false)
 
   useEffect(() => {
+    setMounted(true)
     const savedTheme = localStorage.getItem('theme') as Theme
     if (savedTheme) {
       setTheme(savedTheme)
@@ -26,17 +27,16 @@ export default function ThemeProvider({ children }: { children: React.ReactNode 
       setTheme(initialTheme)
       document.documentElement.setAttribute('data-theme', initialTheme)
     }
-    setMounted(true)
   }, [])
 
   const toggleTheme = () => {
-    if (!mounted) return // Don't toggle if not mounted yet
     const newTheme = theme === 'light' ? 'dark' : 'light'
     setTheme(newTheme)
     localStorage.setItem('theme', newTheme)
     document.documentElement.setAttribute('data-theme', newTheme)
   }
 
+  // Always provide context, even before mounted
   return (
     <ThemeContext.Provider value={{ theme, toggleTheme }}>
       {children}
