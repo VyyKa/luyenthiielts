@@ -2,6 +2,7 @@
 
 import { Topic } from '@/data/vocabulary'
 import { useState } from 'react'
+import { useRouter } from 'next/navigation'
 import TopicIcon from './TopicIcon'
 import { FiLayers, FiFileText } from 'react-icons/fi'
 
@@ -12,21 +13,17 @@ interface TopicModalProps {
 }
 
 export default function TopicModal({ topic, isOpen, onClose }: TopicModalProps) {
+  const router = useRouter()
   const [learnedWords, setLearnedWords] = useState<Set<string>>(new Set())
 
   const handleStartFlashcards = () => {
-    // Store selected topic for flashcards
-    if (typeof window !== 'undefined') {
-      localStorage.setItem('selectedTopic', topic.id)
-    }
     onClose()
-    // Scroll to flashcards section
-    setTimeout(() => {
-      const element = document.getElementById('flashcards')
-      if (element) {
-        element.scrollIntoView({ behavior: 'smooth' })
-      }
-    }, 100)
+    router.push(`/study/${topic.id}`)
+  }
+
+  const handleStartQuiz = () => {
+    onClose()
+    router.push(`/quiz/${topic.id}`)
   }
 
   const toggleLearned = (word: string) => {
@@ -55,7 +52,7 @@ export default function TopicModal({ topic, isOpen, onClose }: TopicModalProps) 
           <button className="btn btn-primary" onClick={handleStartFlashcards}>
             <FiLayers style={{ marginRight: '8px' }} /> Học Flashcard
           </button>
-          <button className="btn btn-secondary" onClick={onClose}>
+          <button className="btn btn-secondary" onClick={handleStartQuiz}>
             <FiFileText style={{ marginRight: '8px' }} /> Làm Quiz
           </button>
         </div>

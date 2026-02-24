@@ -70,6 +70,20 @@ body {
     padding-bottom: env(safe-area-inset-bottom);
 }
 
+/* Layout: push footer to bottom when content is short (quiz, study) */
+.layout-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.layout-main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
+}
+
 /* Ensure all text elements inherit proper font */
 p, span, div, a, button, input, textarea, select, label, li, td, th {
     font-family: inherit;
@@ -2789,12 +2803,22 @@ a:focus-visible {
     }
 }
 
-/* Study & Quiz pages – safe area & padding */
+/* Study & Quiz pages – fill layout, footer at bottom */
 .study-page,
 .quiz-page {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
     padding-left: max(16px, env(safe-area-inset-left));
     padding-right: max(16px, env(safe-area-inset-right));
     padding-bottom: max(24px, env(safe-area-inset-bottom));
+    padding-top: max(20px, env(safe-area-inset-top));
+}
+
+.quiz-page .quiz-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
 }
 
 @media (max-width: 768px) {

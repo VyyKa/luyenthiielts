@@ -40,9 +40,13 @@ export default function RootLayout({
     <html lang="vi" suppressHydrationWarning className={`${inter.variable} ${nunito.variable}`}>
       <body className={inter.className}>
         <ThemeProvider>
-          <Navbar />
-          {children}
-          <Footer />
+          <div className="layout-wrapper">
+            <Navbar />
+            <div className="layout-main">
+              {children}
+            </div>
+            <Footer />
+          </div>
         </ThemeProvider>
       </body>
     </html>

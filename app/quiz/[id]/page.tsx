@@ -160,7 +160,7 @@ export default function QuizPage() {
               <Link href={`/study/${topicId}`} className="btn btn-secondary">
                 Ôn lại Flashcards
               </Link>
-              <Link href="/topics" className="btn btn-secondary">
+              <Link href="/flashcards" className="btn btn-secondary">
                 Chọn chủ đề khác
               </Link>
             </div>
@@ -221,7 +221,7 @@ export default function QuizPage() {
     <main className="quiz-page">
       <div className="quiz-container">
         <div className="quiz-header">
-          <Link href={`/topics`} className="back-link">
+          <Link href="/flashcards" className="back-link">
             <FiArrowLeft /> Quay lại
           </Link>
           <div className="quiz-topic">

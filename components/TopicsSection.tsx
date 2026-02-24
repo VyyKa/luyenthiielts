@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useMemo } from 'react'
+import { useState, useMemo, useEffect } from 'react'
 import { topics, Topic, type Vocabulary } from '@/data/vocabulary'
 import TopicModal from './TopicModal'
 import TopicIcon from './TopicIcon'
@@ -10,6 +10,11 @@ export default function TopicsSection() {
   const [filter, setFilter] = useState<'all' | 'writing' | 'speaking' | 'band7'>('all')
   const [selectedTopic, setSelectedTopic] = useState<Topic | null>(null)
   const [isModalOpen, setIsModalOpen] = useState(false)
+  const [mounted, setMounted] = useState(false)
+
+  useEffect(() => {
+    setMounted(true)
+  }, [])
 
   const filteredTopics = useMemo(() => {
     if (filter === 'all') return topics
@@ -58,7 +63,7 @@ export default function TopicsSection() {
           
           <div className="topics-grid">
             {filteredTopics.map((topic) => {
-              const progress = getProgress(topic.id)
+              const progress = mounted ? getProgress(topic.id) : 0
               return (
                 <div key={topic.id} className="topic-card" onClick={() => handleTopicClick(topic)}>
                   <span className="topic-icon"><TopicIcon topicId={topic.id} /></span>

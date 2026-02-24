@@ -6,6 +6,7 @@ import TopicIcon from './TopicIcon'
 import { FiBook, FiZap, FiClock, FiTarget } from 'react-icons/fi'
 
 export default function ProgressSection() {
+  const [mounted, setMounted] = useState(false)
   const [progress, setProgress] = useState({
     total: 0,
     learned: 0,
@@ -15,7 +16,11 @@ export default function ProgressSection() {
   })
 
   useEffect(() => {
-    if (typeof window === 'undefined') return
+    setMounted(true)
+  }, [])
+
+  useEffect(() => {
+    if (typeof window === 'undefined' || !mounted) return
 
     try {
       // Calculate progress from localStorage
@@ -53,7 +58,7 @@ export default function ProgressSection() {
     } catch (error) {
       console.error('Error loading progress:', error)
     }
-  }, [])
+  }, [mounted])
 
   const progressPercent = progress.total > 0 ? Math.round((progress.learned / progress.total) * 100) : 0
   const circumference = 2 * Math.PI * 54
@@ -144,7 +149,7 @@ export default function ProgressSection() {
           <h3>Tiến độ theo chủ đề</h3>
           <div className="topics-progress-list">
             {topics.map(topic => {
-              const topicProgress = getTopicProgress(topic.id)
+              const topicProgress = mounted ? getTopicProgress(topic.id) : 0
               return (
                 <div key={topic.id} className="topic-progress-item">
                   <span className="topic-icon"><TopicIcon topicId={topic.id} /></span>

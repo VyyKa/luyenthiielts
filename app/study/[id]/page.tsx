@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import { topics, Vocabulary } from '@/data/vocabulary'
-import { FiRotateCw, FiChevronLeft, FiChevronRight, FiArrowLeft, FiBook, FiXCircle, FiMeh, FiSmile, FiAward, FiZap, FiStar, FiTrendingUp } from 'react-icons/fi'
+import { FiRotateCw, FiChevronLeft, FiChevronRight, FiArrowLeft, FiBook, FiXCircle, FiMeh, FiSmile, FiAward, FiZap, FiStar, FiTrendingUp, FiFileText, FiGrid } from 'react-icons/fi'
 import Link from 'next/link'
 import TopicIcon from '@/components/TopicIcon'
 import { useParams } from 'next/navigation'
@@ -17,6 +17,12 @@ export default function StudyPage() {
   const [isFlipped, setIsFlipped] = useState(false)
   const [milestoneToast, setMilestoneToast] = useState<{ show: boolean; message: string; emoji: string }>({ show: false, message: '', emoji: '' })
   const [sessionWordsCount, setSessionWordsCount] = useState(0)
+  const [mounted, setMounted] = useState(false)
+  const [topicLearnedCount, setTopicLearnedCount] = useState(0)
+
+  useEffect(() => {
+    setMounted(true)
+  }, [])
 
   useEffect(() => {
     if (topicId) {
@@ -29,6 +35,18 @@ export default function StudyPage() {
       }
     }
   }, [topicId])
+
+  // Sync topic learned count from localStorage (client-only, avoids hydration mismatch)
+  useEffect(() => {
+    if (!mounted || !topic) return
+    try {
+      const progress = JSON.parse(localStorage.getItem('learningProgress') || '{}')
+      const learned = topic.vocabulary.filter((v: Vocabulary) => progress[v.word]).length
+      setTopicLearnedCount(learned)
+    } catch {
+      setTopicLearnedCount(0)
+    }
+  }, [mounted, topic, currentIndex, sessionWordsCount])
 
   const showMilestoneToast = (count: number) => {
     let message = ''
@@ -119,6 +137,7 @@ export default function StudyPage() {
       const newSessionCount = sessionWordsCount + 1
       setSessionWordsCount(newSessionCount)
       showMilestoneToast(newSessionCount)
+      setTopicLearnedCount(prev => prev + 1)
     }
     
     // Move to next card
@@ -149,12 +168,30 @@ export default function StudyPage() {
     <main className="study-page">
       <div className="study-container">
         <div className="study-header">
-          <Link href="/" className="back-link">
-            <FiArrowLeft /> Quay lại
-          </Link>
-          <div className="study-title">
+          <div className="study-header-top">
+            <Link href="/" className="back-link">
+              <FiArrowLeft /> Quay lại
+            </Link>
+            <div className="study-header-links">
+              <Link href="/flashcards" className="study-header-link">
+                <FiGrid /> Chọn chủ đề khác
+              </Link>
+              <Link href={`/quiz/${topic.id}`} className="study-header-link study-header-link-quiz">
+                <FiFileText /> Làm Quiz
+              </Link>
+            </div>
+          </div>
+          <div className="study-title-block">
             <span className="study-icon"><TopicIcon topicId={topic.id} /></span>
-            <h1>{topic.name}</h1>
+            <div className="study-title-text">
+              <h1 className="study-topic-name">{topic.name}</h1>
+              {topic.nameVi && <span className="study-topic-name-vi">{topic.nameVi}</span>}
+              {mounted && (
+                <span className="study-topic-progress-badge">
+                  Đã học {topicLearnedCount}/{topic.vocabulary.length} từ
+                </span>
+              )}
+            </div>
           </div>
         </div>
 
@@ -255,11 +292,26 @@ export default function StudyPage() {
         .study-header {
           display: flex;
           flex-direction: column;
-          gap: 20px;
-          margin-bottom: 40px;
+          gap: 16px;
+          margin-bottom: 28px;
         }
 
-        .back-link {
+        .study-header-top {
+          display: flex;
+          flex-wrap: wrap;
+          align-items: center;
+          justify-content: space-between;
+          gap: 12px;
+        }
+
+        .study-header-links {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 8px;
+        }
+
+        .back-link,
+        .study-header-link {
           display: inline-flex;
           align-items: center;
           gap: 8px;
@@ -271,33 +323,73 @@ export default function StudyPage() {
           text-decoration: none;
           font-size: 14px;
           font-weight: 500;
-          transition: all 0.3s ease;
+          transition: all 0.2s ease;
           width: fit-content;
         }
 
-        .back-link:hover {
+        .back-link:hover,
+        .study-header-link:hover {
           background: var(--accent-primary);
           color: white;
           border-color: var(--accent-primary);
         }
 
-        .study-title {
+        .study-header-link-quiz {
+          background: var(--card-bg);
+          border-color: var(--accent-primary);
+          color: var(--accent-primary);
+        }
+
+        .study-header-link-quiz:hover {
+          background: var(--accent-primary);
+          color: white;
+        }
+
+        .study-title-block {
           display: flex;
-          align-items: center;
-          gap: 16px;
-          margin-bottom: 20px;
+          align-items: flex-start;
+          gap: 20px;
         }
 
         .study-icon {
           font-size: 48px;
           display: flex;
           align-items: center;
+          flex-shrink: 0;
         }
 
-        .study-title h1 {
-          font-size: 32px;
+        .study-title-text {
+          display: flex;
+          flex-direction: column;
+          gap: 4px;
+        }
+
+        .study-topic-name {
+          font-size: 28px;
+          font-weight: 800;
           color: var(--text-primary);
           margin: 0;
+          letter-spacing: -0.02em;
+          line-height: 1.2;
+        }
+
+        .study-topic-name-vi {
+          font-size: 1rem;
+          color: var(--text-secondary);
+          font-weight: 500;
+        }
+
+        .study-topic-progress-badge {
+          display: inline-block;
+          margin-top: 8px;
+          padding: 6px 12px;
+          background: var(--card-bg);
+          border: 1px solid var(--border-color);
+          border-radius: 999px;
+          font-size: 0.85rem;
+          font-weight: 600;
+          color: var(--text-secondary);
+          width: fit-content;
         }
 
         .flashcard-container.study-full {
@@ -507,27 +599,105 @@ export default function StudyPage() {
         }
 
         @media (max-width: 768px) {
-          .study-title {
-            flex-direction: column;
-            align-items: flex-start;
+          .study-page {
+            padding-bottom: 220px;
+            padding-left: 16px;
+            padding-right: 16px;
+            padding-top: 88px;
           }
 
-          .study-title h1 {
-            font-size: 24px;
+          .study-container {
+            padding-bottom: 24px;
+          }
+
+          .study-header-top {
+            flex-direction: column;
+            align-items: stretch;
+          }
+
+          .study-header-links {
+            justify-content: flex-start;
+          }
+
+          .study-header-link {
+            padding: 8px 14px;
+            font-size: 13px;
+          }
+
+          .study-title-block {
+            flex-direction: row;
+            align-items: flex-start;
+            gap: 14px;
+          }
+
+          .study-topic-name {
+            font-size: 22px;
+          }
+
+          .study-topic-name-vi {
+            font-size: 0.9rem;
+          }
+
+          .study-topic-progress-badge {
+            font-size: 0.8rem;
+            padding: 5px 10px;
           }
 
           .study-icon {
-            font-size: 32px;
+            font-size: 36px;
           }
 
           .flashcard-wrapper.study-large {
-            min-height: 300px;
+            min-height: 220px;
+            max-height: 320px;
+          }
+
+          .flashcard-front,
+          .flashcard-back {
+            min-height: 220px;
+            padding: 24px 20px;
+          }
+
+          .flashcard .word {
+            font-size: 2rem;
+          }
+
+          .flashcard .phonetic {
+            font-size: 1rem;
+          }
+
+          .flashcard .meaning {
+            font-size: 1.4rem;
+          }
+
+          .flashcard .example {
+            font-size: 0.9rem;
+          }
+
+          .flashcard-actions {
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+            margin-top: 16px;
+          }
+
+          .learning-buttons {
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+            margin-top: 12px;
+          }
+
+          .fc-btn,
+          .learn-btn {
+            min-height: 44px;
           }
 
           .session-counter {
-            top: 80px;
-            right: 16px;
-            padding: 8px 16px;
+            top: 72px;
+            right: 12px;
+            padding: 8px 12px;
+            font-size: 0.85rem;
           }
 
           .milestone-toast {
@@ -540,6 +710,27 @@ export default function StudyPage() {
 
           .milestone-message {
             font-size: 1.2rem;
+          }
+        }
+
+        @media (max-width: 480px) {
+          .study-page {
+            padding-bottom: 200px;
+          }
+
+          .flashcard-wrapper.study-large {
+            min-height: 200px;
+            max-height: 280px;
+          }
+
+          .flashcard-front,
+          .flashcard-back {
+            min-height: 200px;
+            padding: 20px 16px;
+          }
+
+          .flashcard .word {
+            font-size: 1.75rem;
           }
         }
       `}</style>
