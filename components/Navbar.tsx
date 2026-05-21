@@ -7,12 +7,14 @@ import { usePathname } from 'next/navigation'
 import { useTheme } from './ThemeProvider'
 import ProfileModal from './ProfileModal'
 import { FiBook, FiSun, FiMoon } from 'react-icons/fi'
+import DictionaryLookup from './DictionaryLookup'
 
 export default function Navbar() {
   const pathname = usePathname()
   const { toggleTheme } = useTheme()
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const [isProfileOpen, setIsProfileOpen] = useState(false)
+  const [isLookupOpen, setIsLookupOpen] = useState(false)
   const [activeSection, setActiveSection] = useState('home')
   const isHomePage = pathname === '/'
 
@@ -75,6 +77,16 @@ export default function Navbar() {
               <Link href="/flashcards" className={`nav-link ${pathname === '/flashcards' ? 'active' : ''}`}>Flashcards</Link>
             </li>
             <li>
+              <button
+                type="button"
+                className={`nav-link nav-link-tab ${isLookupOpen ? 'active' : ''}`}
+                onClick={() => setIsLookupOpen(true)}
+                aria-pressed={isLookupOpen}
+              >
+                Tra từ
+              </button>
+            </li>
+            <li>
               {isHomePage ? (
                 <a href="#progress" onClick={(e) => { e.preventDefault(); scrollToSection('progress') }} className={`nav-link ${activeSection === 'progress' ? 'active' : ''}`}>Tiến độ</a>
               ) : (
@@ -110,6 +122,7 @@ export default function Navbar() {
       </header>
       
       <ProfileModal isOpen={isProfileOpen} onClose={() => setIsProfileOpen(false)} />
+      <DictionaryLookup isOpen={isLookupOpen} onClose={() => setIsLookupOpen(false)} />
     </>
   )
 }

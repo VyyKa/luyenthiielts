@@ -244,6 +244,28 @@ a:focus-visible {
     outline-offset: 2px;
 }
 
+.nav-link.nav-link-tab {
+    border: none;
+    background: transparent;
+    line-height: 1;
+    appearance: none;
+    -webkit-appearance: none;
+    font: inherit;
+    color: var(--text-secondary);
+    padding: 8px 16px;
+    min-height: 0;
+}
+
+.nav-link.nav-link-tab:hover,
+.nav-link.nav-link-tab.active {
+    color: var(--text-primary);
+    background: var(--bg-tertiary);
+}
+
+.nav-link.nav-link-tab:active {
+    transform: scale(0.98);
+}
+
 .nav-actions {
     display: flex;
     align-items: center;
